@@ -99,7 +99,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
         imageView2.setImageResource(mImage2);
-
+        textView.setText(String.valueOf(result));
+        textView2.setText(String.valueOf(mResult));
 
     }
 
